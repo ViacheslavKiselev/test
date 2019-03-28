@@ -1,6 +1,8 @@
 package ru.test;
 
 public class Main {
+    private final Job jobDelegate = new Job();
+
     public static void main(String[] args) {
         System.out.println(" ssssssss");
 
@@ -11,10 +13,12 @@ public class Main {
             }
         }).start();
         System.out.println("Bla");
+
+
     }
 
     public void doJob() {
-        System.out.println("Test do Job");
+        jobDelegate.doJob();
     }
 
 }
