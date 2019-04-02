@@ -12,9 +12,7 @@ public class Main {
                 System.out.println("Thread");
             }
         }).start();
-        System.out.println("Bla");
-
-
+        System.out.println("Bla bla bla");
     }
 
     public void doJob() {
